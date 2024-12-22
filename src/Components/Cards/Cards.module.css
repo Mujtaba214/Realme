@@ -1,0 +1,45 @@
+.Cards{
+    background-color: white;
+    /* border: 1px solid; */
+    margin: 12px 0px 10px 60px;
+    height: 220px;
+    padding: 15px;
+    max-width: 550px;
+    /* text-align: center; */
+    display: inline-block;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 80%;
+}
+
+.left{
+ width: 50%;
+}
+
+.title{
+    padding: 6px;
+    font-weight: 700;
+}
+
+.features{
+    font-weight: 400;
+    padding-left: 6px;
+}
+
+.price{
+    padding-top: 120px;
+}
+
+.right{
+    text-align: center;
+    width: 50%;
+}
+
+.right img{
+    padding-left: 62px;
+    width: 70%;
+}

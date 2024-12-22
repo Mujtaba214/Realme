@@ -1,0 +1,35 @@
+/* Footer.css */
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footercontent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerlinks {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footerlinks li {
+  display: inline;
+}
+
+.footerlinks a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footerlinks a:hover {
+  text-decoration: underline;
+}
